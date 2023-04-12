@@ -1,0 +1,26 @@
+file_type: csv
+dataset_name: file
+file_name: usedcar
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - id
+      - vin
+      - price
+      - mile
+      - stock_no
+      - year
+      - make
+      - model
+      - trim
+      - body_type
+      - vehicle_type
+      - drivetrain
+      - transmission
+      - fuel_type
+      - engine_size
+      - engine_block
+      - seller_name
+      - street
